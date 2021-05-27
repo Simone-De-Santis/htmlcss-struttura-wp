@@ -2,13 +2,68 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.containre{
+    max-width: 1200px;  
+    margin: 0 auto;
+}
+.float-left{
+    float: left
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
-.containre{
-    height: 1000px;
-    width: 800px;
-    background-color: aquamarine;
-    margin: 0 auto;
+
+.header-sairbar{
+    height: 50px;
+    background-color: plum;
+    margin-bottom: 30px;
+}
+.section{
+    height: 500px;
+    background-color: forestgreen;
+    margin-bottom: 20px;
+}
+.main-section{
+    background-color: blue;
+    height: 500px;
+    width: 1200px;
+}
+
+
+
+
+.top-table{
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+.left-table{
+    background-color: aqua;
+    height: 100% ;
+    width: 25%;
+}
+.center-table{
+    background-color: aqua;
+    margin: 0 20px;
+    height: 100% ;
+    width: calc(50% - 40px);
+
+}
+.right-table{
+    background-color: aqua;
+    height: 100% ;
+    width: 25%;
+
+}
+footer{
+    margin-top: 20px;
+    background-color: aqua;
+
 }
